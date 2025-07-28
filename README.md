@@ -41,9 +41,9 @@ This repository describe the short tutorial on Pytorch which will be understanda
 
 * **Robust GPU support** : Efficient tensor operations on GPUs, with expanding multi-GPU and distributed support.
 
-* **Transparent and readable code**: Models are easy to understand, debug, and extend—critical for innovation.
+* **Transparent and readable code** : Models are easy to understand, debug, and extend—critical for innovation.
 
-* **Wide adoption in research/industry**: Used in computer vision, NLP, recommendation systems, healthcare, robotics, and business scenarios.
+* **Wide adoption in research/industry** : Used in computer vision, NLP, recommendation systems, healthcare, robotics, and business scenarios.
 
 ## PyTorch vs TensorFlow
 | Feature | PyTorch | TensorFlow | 
