@@ -76,4 +76,22 @@ Both frameworks are powerful. PyTorch is now often preferred for research and ex
 | Architecture support | CNNs, GANs, segmentation architectures | RNN, LSTM, GRU, Transformers| 
 | Dynamic computation graph | Yes |Yes|
 | Deployment | TorchScript, ONNX |TorchScript, ONNX, TorchServe | 
-|GPU support |Native |Native | 
+| GPU support | Native | Native |
+
+
+## PyTorch Core Module
+
+|Module| Description|
+|:-----|:-----------|
+|```torch```| The core module providing multidimensional arrays(tensor) and mathematical operations on them|
+|```torch.autograd```| Automatic differentiation engine that records operations on tensors to compute gradients for optimization|
+|```torch.nn``` | Provides a neural networks library, including layers, activations, loss functions and utilities to build deep learning models|
+|```torch.optim```| Contains optimization algorithms (optimizer) like SGD, Adam, and DMSprop used for training neural network|
+|```torch.utils.data```| Utilities for data handling, including the ```Dataset``` and ```DataLoader``` classes for managing and loading dataset efficiently|
+|```torch.jit```| Support Just-In-Time(JIT) compilation and TorchScript for optimizing models and enabling deployment without python dependencies|
+|```torch.distributed```| Tools for distributed training across multiple GPUs and machines, facilitating parallel computation|
+|```torch.cuda```| Interfaces with NVIDIA CUDA to enable GPU acceleration for tensor computations and model training|
+|```torch.backend```| Contains settings and allows control over backend libraries like cuDNN, MKL and others for performance tuning |
+|```torch.multiprocessing```| Utilites for parallelism using multiprocessing, similar to python's ```multiprocessing``` module but with support for CUDA tensor|
+|```torch.quentization```| Tools for model quantization to reduce model size and improve inference speed, especially on edge devices |
+|```torch.onnx```| Supports exporting PyTorch models to the ONNX(Open Neural Network Exchange) format for interoperability with other frameworks and deployment|
