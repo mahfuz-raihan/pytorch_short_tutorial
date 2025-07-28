@@ -95,3 +95,25 @@ Both frameworks are powerful. PyTorch is now often preferred for research and ex
 |```torch.multiprocessing```| Utilites for parallelism using multiprocessing, similar to python's ```multiprocessing``` module but with support for CUDA tensor|
 |```torch.quentization```| Tools for model quantization to reduce model size and improve inference speed, especially on edge devices |
 |```torch.onnx```| Supports exporting PyTorch models to the ONNX(Open Neural Network Exchange) format for interoperability with other frameworks and deployment|
+
+
+## Pytorch Domain base libraries
+|Library| Description|
+|:------|:-----------|
+|```torchvision```| Provide datasets, model architecture and image transformations for computer vision|
+|```torchtext```| Tools and datasets for NLP, including data preprocessing and vocabulary management|
+|```torchaudio```| Utilities for audio processing task, including I/O, transforms and pre-trained models for speech recognition|
+|```torcharrow```| A library for accelerated data loading and preprocessing, especially for tabular and time series data |
+|```torchserve```| A pyTorch model serving library that makes it easy to deploy trained models at scale in production environment |
+|```pytorch_lightning```| A lightwright wrapper for Pytorch that simplifies the training loop and reduces bilerplate code, enabling scalable and reproducable models|
+
+
+## Populaer Pytorch Ecosystem Libraries
+|Library | Description|
+|:-------|:-----------|
+|**Hugging Face Transformers**|Provides state-of-the-art pre-trained models for NLP tasks like text classification, translation and question answering, built on PyTorch|
+|**Fastai**| High-level library that simplifies training fast and accurate neural news using modern bast practice, built on top of PyTorch|
+|**PyTorch Geometric**| Extension library for geomatric deep learning, including graph newral network and 3D data preprocessing|
+|**TorchMetrics**| A moduler matrics API for pytorch, compatible with pytorch lightning and provide standardized implementations of many common matrics|
+|**Optuna**| An automatic hyperparameter optimization software framework, integrating well with PyTorch for tuning models|
+|**TorchElastic**| Enables dynamic scaling of PyTorch distribued training jobs, allowing for elasticity in resource management|
