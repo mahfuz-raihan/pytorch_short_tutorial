@@ -57,5 +57,20 @@ print("Create tensor using linspace ====> \n", torch.linspace(0,10,10))
 # eye ----------------------------------------
 print("using eye ====> \n", torch.eye(5))
 
-# using full
+# using full ---------------------------------
 print("Using full ====> \n", torch.full((3,3),5))
+
+
+# Tensor shape
+# --------------------------------------------
+x = torch.tensor([[1,2,3],[4,5,6]])
+print("The shape of the tensor x: \n", x.shape)
+
+
+# Tensor Data Type
+# --------------------------------------------
+print("Find data type:", x.dtype)
+
+# assign data type
+# --------------------------------------------
+print("Assigned Data Type:", torch.tensor([1.0, 2.0, 3.0], dtype=torch.int32))
